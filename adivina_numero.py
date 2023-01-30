@@ -6,7 +6,7 @@ def adivina_el_numero(x):
     print("*****************************************")
     print("Empesemos a jugar a divina el numero !!!.")
     print("*****************************************")
-    print(" trata de vencer adivinamdo el numero que muestra en pantalla...")
+    print("Trata de vencer adivina el numero .....")
     numero_aleatorio = random.randint(1, x)  # numero aleatorio entre 1 y x
     minumero = 0
     while minumero != numero_aleatorio:
@@ -17,7 +17,7 @@ def adivina_el_numero(x):
         if minumero < numero_aleatorio:
             print("Intenta otra vez, este numero es muy pequeño.")
         elif minumero > numero_aleatorio:
-            print("intenta otra vez, este numero es muy grnade.")
+            print("intenta otra vez, este numero es muy grande.")
 
     print(
         f"Felicitaciones adivinaste el numero {numero_aleatorio} correctamente !!!.")
